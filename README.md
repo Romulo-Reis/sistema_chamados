@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# Sistema de Chamados
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **Sistema de Chamados** é uma aplicação web desenvolvida em React, que utiliza o Firebase para gerenciamento de autenticação e dados. A aplicação é voltada para o controle e acompanhamento de chamados técnicos.
 
-## Available Scripts
+## 📋 Índice
 
-In the project directory, you can run:
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação e Execução](#instalação-e-execução)
+- [Scripts Disponíveis](#scripts-disponíveis)
+- [Configuração](#configuração)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [React](https://reactjs.org/) - Biblioteca para criação de interfaces de usuário.
+- [Firebase](https://firebase.google.com/) - Plataforma de backend como serviço para autenticação e banco de dados.
+- [React Router](https://reactrouter.com/) - Gerenciamento de rotas na aplicação.
+- [React Scripts](https://create-react-app.dev/docs/getting-started/) - Ferramentas de configuração e execução para projetos criados com Create React App.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✅ Pré-requisitos
 
-### `npm run build`
+Antes de começar, certifique-se de ter instalado:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📦 Instalação e Execução
 
-### `npm run eject`
+Siga os passos abaixo para configurar o projeto em seu ambiente:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/Romulo-Reis/sistema_chamados.git
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Acesse a pasta do projeto:
+   ```bash
+   cd sistema-chamados
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
 
-## Learn More
+Acesse a aplicação em: [http://localhost:3000](http://localhost:3000)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📜 Scripts Disponíveis
 
-### Code Splitting
+No diretório do projeto, você pode executar os seguintes comandos:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `npm start`: Inicia o servidor de desenvolvimento.
+- `npm build`: Gera uma versão otimizada para produção na pasta `build`.
+- `npm test`: Executa os testes configurados no projeto.
+- `npm eject`: Ejetar as configurações do Create React App (não é reversível).
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ⚙️ Configuração
 
-### Making a Progressive Web App
+1. Crie um arquivo `.env` na raiz do projeto para configurar as variáveis de ambiente. Exemplo:
+   ```
+   REACT_APP_FIREBASE_API_KEY=your_api_key
+   REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
+   REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Configure os serviços do Firebase, como autenticação e banco de dados, no painel de controle do Firebase.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Contribuindo
 
-### Deployment
+Contribuições são sempre bem-vindas! Sinta-se à vontade para enviar um pull request ou abrir uma issue para discutir melhorias.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📝 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
+Desenvolvido por [Rômulo Reis Tavares](https://github.com/seu-usuario).
