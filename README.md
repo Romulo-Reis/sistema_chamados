@@ -1,6 +1,6 @@
 # Sistema de Chamados
 
-O **Sistema de Chamados** é uma aplicação web desenvolvida em React, que utiliza o Firebase para gerenciamento de autenticação e dados. A aplicação é voltada para o controle e acompanhamento de chamados técnicos.
+O **Sistema de Chamados** é uma aplicação web desenvolvida em React, que utiliza o Firebase para gerenciamento de autenticação e dados. A aplicação é voltada para o controle e acompanhamento de chamados técnicos. Este projeto foi criado como parte do curso [**React Js do Zero ao Avançado na Prática**](https://www.udemy.com/share/101ybQ3@JR3RMe9rdQEKcNAasfH409QnfyZimGA3tzLNT0d-fwR5yH7000y5fc8O0BjwlklA/) na plataforma **Udemy**, com o objetivo de aprender e praticar os conceitos de React.
 
 ## 📋 Índice
 
@@ -75,9 +75,13 @@ No diretório do projeto, você pode executar os seguintes comandos:
 
 1. Crie um arquivo `.env` na raiz do projeto para configurar as variáveis de ambiente. Exemplo:
    ```
-   REACT_APP_FIREBASE_API_KEY=your_api_key
-   REACT_APP_FIREBASE_AUTH_DOMAIN=your_auth_domain
-   REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+   REACT_APP_FIREBASE_APIKEY=          # Chave da API do Firebase
+   REACT_APP_FIREBASE_AUTHDOMAIN=      # Domínio de autenticação do Firebase
+   REACT_APP_FIREBASE_PROJECTID=       # ID do projeto Firebase
+   REACT_APP_FIREBASE_STORAGEBUCKET=   # Bucket de armazenamento do Firebase
+   REACT_APP_FIREBASE_MESSAGINGSENDERID= # ID do remetente de mensagens do Firebase
+   REACT_APP_FIREBASE_APPID=           # ID do aplicativo Firebase
+   REACT_APP_FIREBASE_MEASUREMENTID=   # ID de medição do Firebase Analytics
    ```
 
 2. Configure os serviços do Firebase, como autenticação e banco de dados, no painel de controle do Firebase.
@@ -92,8 +96,8 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para enviar um pull 
 
 ## 📝 Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto é privado. Consulte o autor para mais informações.
 
 ---
 
-Desenvolvido por [Rômulo Reis Tavares](https://github.com/seu-usuario).
+Desenvolvido por [Rômulo Reis Tavares](https://github.com/Romulo-Reis).
