@@ -6,7 +6,8 @@ import { FiPlusCircle } from 'react-icons/fi';
 
 import { AuthContext } from '../../contexts/auth';
 import { db } from '../../services/firebaseConnection';
-import { collection, getDocs, getDoc, doc } from 'firebase/firestore';
+import { collection, getDocs, getDoc, doc, addDoc } from 'firebase/firestore';
+import { toast } from 'react-toastify';
 
 import './new.css';
 
@@ -67,6 +68,27 @@ export default function New(){
         setCustomerSelected(e.target.value);
     }
 
+    async function handleRegister(e){
+        e.preventDefault();
+        
+        await addDoc(collection(db,"chamados"),{
+            created: new Date(),
+            cliente: customers[customerSelected].nomeFantasia,
+            clienteId: customers[customerSelected].id,
+            assunto: assunto,
+            complemento: complemento,
+            status: status,
+            userId: user.uid
+        }).then(() => {
+            toast.success("Chamado registrado!");
+            setComplemento('');
+            setCustomerSelected(0);
+        }).catch((error) =>{
+            toast.error("Ops erro ao registrar, tente mais tarde!");
+            console.log(error);
+        })
+    }
+
     return (
         <div>
             <Header/>
@@ -77,7 +99,7 @@ export default function New(){
                 </Title>
 
                 <div className="container">
-                    <form className="form-profile">
+                    <form className="form-profile" onSubmit={handleRegister}>
                         <label>Cliente:</label>
                         {
                             loadCustomer ? (
