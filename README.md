@@ -2,11 +2,7 @@
 
 O **Sistema de Chamados** é uma aplicação web desenvolvida em React, que utiliza o Firebase para gerenciamento de autenticação e dados. A aplicação é voltada para o controle e acompanhamento de chamados técnicos. Este projeto foi criado como parte do curso [**React Js do Zero ao Avançado na Prática**](https://www.udemy.com/share/101ybQ3@JR3RMe9rdQEKcNAasfH409QnfyZimGA3tzLNT0d-fwR5yH7000y5fc8O0BjwlklA/) na plataforma **Udemy**, com o objetivo de aprender e praticar os conceitos de React.
 
-## 🌐 Acesso ao Projeto
-
-Você pode acessar o projeto através do link abaixo:
-
-[📲 Sistema de Chamados - Deploy no Netlify](https://sistema-de-chamados-sujeito-programador-curso-react.netlify.app/)
+A aplicação está disponível em: [Sistema de Chamados](https://sistema-de-chamados-sujeito-programador-curso-react.netlify.app/)
 
 ## 📋 Índice
 
@@ -19,7 +15,7 @@ Você pode acessar o projeto através do link abaixo:
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - [React](https://reactjs.org/) - Biblioteca para criação de interfaces de usuário.
 - [Firebase](https://firebase.google.com/) - Plataforma de backend como serviço para autenticação e banco de dados.
@@ -28,7 +24,7 @@ Você pode acessar o projeto através do link abaixo:
 
 ---
 
-## ✅ Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado:
 
@@ -37,7 +33,7 @@ Antes de começar, certifique-se de ter instalado:
 
 ---
 
-## 📦 Instalação e Execução
+## Instalação e Execução
 
 Siga os passos abaixo para configurar o projeto em seu ambiente:
 
@@ -65,7 +61,7 @@ Acesse a aplicação em: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 📜 Scripts Disponíveis
+## Scripts Disponíveis
 
 No diretório do projeto, você pode executar os seguintes comandos:
 
@@ -76,7 +72,7 @@ No diretório do projeto, você pode executar os seguintes comandos:
 
 ---
 
-## ⚙️ Configuração
+## Configuração
 
 1. Crie um arquivo `.env` na raiz do projeto para configurar as variáveis de ambiente. Exemplo:
    ```
@@ -93,7 +89,7 @@ No diretório do projeto, você pode executar os seguintes comandos:
 
 ---
 
-## 🤝 Contribuindo
+## Contribuindo
 
 Contribuições são sempre bem-vindas! Sinta-se à vontade para enviar um pull request ou abrir uma issue para discutir melhorias.
 
