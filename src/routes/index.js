@@ -23,6 +23,8 @@ function RoutesApp(){
             <Route path="/customers" element={ <Private><Customers/></Private>} />
             
             <Route path="/new" element={<Private><New/></Private>} />
+
+            <Route path="/new/:id" element={<Private><New/></Private>} />
         </Routes>
     )
 }
