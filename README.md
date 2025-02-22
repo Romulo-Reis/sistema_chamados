@@ -2,6 +2,12 @@
 
 O **Sistema de Chamados** é uma aplicação web desenvolvida em React, que utiliza o Firebase para gerenciamento de autenticação e dados. A aplicação é voltada para o controle e acompanhamento de chamados técnicos. Este projeto foi criado como parte do curso [**React Js do Zero ao Avançado na Prática**](https://www.udemy.com/share/101ybQ3@JR3RMe9rdQEKcNAasfH409QnfyZimGA3tzLNT0d-fwR5yH7000y5fc8O0BjwlklA/) na plataforma **Udemy**, com o objetivo de aprender e praticar os conceitos de React.
 
+## 🌐 Acesso ao Projeto
+
+Você pode acessar o projeto através do link abaixo:
+
+[📲 Sistema de Chamados - Deploy no Netlify](https://sistema-de-chamados-sujeito-programador-curso-react.netlify.app/)
+
 ## 📋 Índice
 
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
@@ -10,7 +16,6 @@ O **Sistema de Chamados** é uma aplicação web desenvolvida em React, que util
 - [Scripts Disponíveis](#scripts-disponíveis)
 - [Configuração](#configuração)
 - [Contribuindo](#contribuindo)
-- [Licença](#licença)
 
 ---
 
@@ -94,10 +99,5 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para enviar um pull 
 
 ---
 
-## 📝 Licença
-
-Este projeto é privado. Consulte o autor para mais informações.
-
----
-
 Desenvolvido por [Rômulo Reis Tavares](https://github.com/Romulo-Reis).
+
